@@ -12,6 +12,6 @@ mongoose.connect('mongodb://localhost:27017/redsocial',{ useNewUrlParser:true, u
 
 	//server
 	app.listen(port,()=>{
-		console.log("servidor corriendo");
+		console.log("servidor corriendo en "+port);
 	});
 }).catch(err => console.log(err));
